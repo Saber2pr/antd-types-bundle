@@ -10,6 +10,6 @@
     "antd": "^4.16.5"
   },
   "scripts": {
-    "build": "dts-bundle --out ./antd.d.ts --name antd --main node_modules/antd/lib --baseDir ./"
+    "build": "dts-bundle --out ./build/antd.d.ts --name antd --main node_modules/antd/lib --baseDir ./"
   }
 }
