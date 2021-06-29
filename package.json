@@ -1,0 +1,15 @@
+{
+  "name": "antd-types-bundle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "dts-bundle": "^0.7.3"
+  },
+  "dependencies": {
+    "antd": "^4.16.5"
+  },
+  "scripts": {
+    "build": "dts-bundle --out ./antd.d.ts --name antd --main node_modules/antd/lib --baseDir ./"
+  }
+}
